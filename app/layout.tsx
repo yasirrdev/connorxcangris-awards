@@ -5,7 +5,8 @@ import '@fontsource-variable/space-grotesk';
 import './style.css';
 
 export const dynamic = 'force-dynamic';
-export const metadata = {title:'ConnorxCangris Awards',description:'La gala privada de ConnorxCangris'};
+export const metadata = {title:'ConnorxCangris Awards — La noche de los memes',description:'Una gala privada para celebrar los memes, personajes y momentos que hicieron historia.'};
+export const viewport = {themeColor:'#17120D',width:'device-width',initialScale:1,viewportFit:'cover'};
 export default function Layout({children}:{children:ReactNode}) {
   return <html lang="es"><body>
     <header><Link className="brand" href="/"><span>🍋</span> ConnorxCangris <b>Awards</b></Link>
