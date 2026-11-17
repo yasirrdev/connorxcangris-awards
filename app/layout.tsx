@@ -9,7 +9,7 @@ export const metadata = {title:'ConnorxCangris Awards — La noche de los memes'
 export const viewport = {themeColor:'#17120D',width:'device-width',initialScale:1,viewportFit:'cover'};
 export default function Layout({children}:{children:ReactNode}) {
   return <html lang="es"><body>
-    <header><Link className="brand" href="/"><span>🍋</span> ConnorxCangris <b>Awards</b></Link>
+    <header><Link className="brand" href="/" aria-label="ConnorxCangris Awards — inicio"><img className="brand-mark" src="/connorx-gala-emblem.png" alt=""/><span className="brand-wordmark">🍋connorxcangris🦀</span></Link>
       <nav><Link href="/gala">La gala</Link><Link href="/acceso">Mi acceso ↗</Link></nav>
     </header>
     <main>{children}</main>
